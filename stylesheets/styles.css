@@ -55,15 +55,15 @@
 }
 
 body {
-  background-color: #212121;
+  background-color: #fff;
   padding:50px;
   font: 18px/1.5 "Andale Mono", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color:#E0E0E0;
+  color:#000;
   font-weight:400;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color:#FAFAFA;
+  color:#000;
   margin:0 0 20px;
 }
 
@@ -82,15 +82,15 @@ h1 {
 }
 
 h2 {
-  color:#FAFAFA;
+  color:#000;
 }
 
 h3, h4, h5, h6 {
-  color:#FAFAFA;
+  color:#000;
 }
 
 a {
-  color:#FAFAFA;
+  color:#000;
   text-decoration:none;
 }
 
@@ -100,13 +100,13 @@ a:hover {
 
 a small {
   font-size:11px;
-  color:#FAFAFA;
+  color:#000;
   margin-top:-0.3em;
   display:block;
 }
 
 a:hover small {
-  color:#FAFAFA;
+  color:#000;
 }
 
 .wrapper {
