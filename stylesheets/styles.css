@@ -280,8 +280,23 @@ footer {
     width:auto;
   }
 
-  header {
-    padding-right:320px;
+	  header {
+		  margin: 10px 5px 10px 5px;
+	    -webkit-font-smoothing:subpixel-antialiased;
+	    /* Safari */
+	    -webkit-transform: rotate(0deg);
+
+	    /* Firefox */
+	    -moz-transform: rotate(0deg);
+
+	    /* IE */
+	    -ms-transform: rotate(0deg);
+
+	    /* Opera */
+	    -o-transform: rotate(0deg);
+
+	    /* Internet Explorer */
+	    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=0);
   }
 
   section {
@@ -312,7 +327,9 @@ footer {
   }
 
   header ul, header p.view {
-    position:static;
+    width: auto;
+    float:left;
+    position:fixed;
   }
 
   pre, code {
